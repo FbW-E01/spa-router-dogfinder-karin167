@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+  border: 0.1em solid purple;
+  display: block;
+  opacity: 0.2;
+}
+li {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  list-style-type: none;
+  /* display: inline-block; */
+  margin-right: 2em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1,
+h3 {
+  font-family: fantasy;
+  text-align: center;
+}
+/* h3:hover {
+  font-size: 30px;
+  
+} */
+.active img {
+  opacity: initial;
+}
+p {
+  text-align: center;
+  margin-bottom: 40px;
+}
